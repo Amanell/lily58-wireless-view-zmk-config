@@ -10,12 +10,12 @@
 #include <dt-bindings/zmk/keys.h>
 
 
-&out OUT_USB
 
 
 / {
     keymap {
         compatible = "zmk,keymap";
+        &out OUT_USB
 
         default_layer {
             // ------------------------------------------------------------------------------------------------------------
